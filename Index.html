@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Enquête</title>
+  <style>
+    h2 {
+      color: #CCCCCC;
+    }
+  </style>
+  
+    <style>
+    h3 {
+      color: #e53517;
+    }
+  </style>
+  <style>
+  #button1 {
+    background-color: red;
+    color: white;
+  }
+</style>
+  
+  <script>
+    function ouvrirSite() {
+      var code = document.getElementById("codeInput").value;
+      if (code === "Tes") {
+        window.location.href = "https://drive.google.com/file/d/10uT7mmz5eELcl7N18BxU7nkxez3Z03MO/view?usp=drivesdk";
+      }
+    }
+
+    function myFunction() {
+    }
+  </script>
+</head>
+<body>
+  <h2>Entrez le code que vous avez déchiffré</h2>
+  <input type="text" id="codeInput" placeholder="Entrez le code ici">
+  <button onclick="ouvrirSite()">Valider</button>
+
+  <button id="button1" onclick="myFunction()">
+    Indice
+  </button>
+  <h3>⚠️ ATTENTION ⚠️<h3/>
+  <h2>LE BOUTON INDICE EST UTILISABLE UNE SEULE FOIS<h2/>
+</body>
+  </html>
+    
